@@ -1,0 +1,20 @@
+function insertionSort(array) {
+    const length = array.length;
+  
+    for (let i = 1; i < length; i++) {
+      let key = array[i];
+      let j = i - 1;
+  
+      while (j >= 0 && array[j] > key) {
+        array[j + 1] = array[j];
+        j = j - 1;
+      }
+      array[j + 1] = key;
+    }
+  
+    return array;
+  }
+  const arr=[8,1,2,3]
+  insertionSort(arr)
+  console.log(arr)
+  
