@@ -33,11 +33,8 @@ function printlargest(arr, arr_size)
 			third = arr[i];
 	}
 
-	console.log("Three largest elements are "
-		+ first + " " + second + " "
-		+ third );
-}
-
+	console.log("The largest 3 numbers are + first " "+ second " "+third+" ")
+		    
 
 	let arr = [ 12, 13, 1, 10, 34, 1 ];
 	let n = arr.length;
