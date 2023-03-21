@@ -37,4 +37,3 @@ BST.insert(7);
 BST.insert(9);
 BST.insert(8);
 BST.search(5)
-console.log(BST);
