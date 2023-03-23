@@ -2,8 +2,7 @@ class Node{
     constructor(val){
         this.value=val;
         this.right=this.left=null;
-        
-    }
+        }
     
 }
 class BST{
