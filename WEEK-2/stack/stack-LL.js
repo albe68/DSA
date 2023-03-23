@@ -25,7 +25,7 @@ function reverse(str){
     }
 
 }
-var s="albert".split("")
+var s="ALBERT".split("")
 
 reverse(s)
 console.log(s)
