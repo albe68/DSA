@@ -22,7 +22,7 @@ class LinkedList{
 
 var LL=new LinkedList(5)
 LL.insert(7)
-console.log(LL)
+log(LL)
 
 const holdingPointer=this.top;
 this.top=newNode;
